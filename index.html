@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sahil Awasthi | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Sahil Awasthi</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#notes">Notes</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Sahil Awasthi is an enthusiastic and focused Computer Science Engineering student specializing in Artificial Intelligence and Machine
+Learning (AIML). He has a strong foundation in both core programming and intelligent systems, with a growing portfolio of hands-on
+projects in machine learning, cybersecurity, and web development. Sahil is particularly passionate about building real-world solutions
+— his recent project on DDoS attack detection using multiple ML classifiers demonstrates both technical depth and analytical skill.
+Known for his convincing communication style, adaptability, and curiosity, Sahil is always eager to explore new technologies and
+improve his craft. Whether it's coding, presenting, or problem-solving, he brings clarity, energy, and a strong drive to everything he
+does.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="filters">
+      <button onclick="filterProjects('all')">All</button>
+      <button onclick="filterProjects('ml')">Machine Learning</button>
+      <button onclick="filterProjects('web')">Web Development</button>
+    </div>
+    <div class="project-list">
+      <div class="project-card" data-type="ml">
+        <h3>DDoS Attack Detection</h3>
+        <p>ML models like SVM, Random Forest used on network datasets for intrusion detection.</p>
+      </div>
+      <div class="project-card" data-type="web">
+        <h3>Personal Portfolio</h3>
+        <p>My own responsive portfolio built with HTML, CSS, and GitHub Pages.</p>
+        <a href="https://sahilawasthi4492.github.io/My-portfolio/" target="_blank">Live Demo</a>
+      </div>
+    </div>
+</section>
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:sahilawasthi619@gmail.com">sahilawasthi619@gmail.com</a></p>
+    <p>Phone: <a href="tel:+917013246629">+91-7013246629</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/sahil-awasthi-a33546295" target="_blank">Profile</a></p>
+    <p>GitHub: <a href="https://github.com/Sahilawasthi4492" target="_blank">Repo</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sahil Awasthi. Built with ❤️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

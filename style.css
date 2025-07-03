@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background: #f8f9fa;
+  color: #333;
+  padding: 10px;
+}
+
+header {
+  background: #343a40;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: #ffc107;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+section {
+  margin: 2rem 0;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.project-card {
+  background: #e9ecef;
+  padding: 1rem;
+  flex: 1 1 calc(50% - 1rem);
+  border-radius: 5px;
+}
+
+.filters button {
+  margin-right: 5px;
+}
+
+#notes input {
+  padding: 5px;
+  width: 70%;
+  margin-top: 10px;
+}
+
+#notes button {
+  padding: 5px 10px;
+  margin-left: 5px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  color: #6c757d;
+}
